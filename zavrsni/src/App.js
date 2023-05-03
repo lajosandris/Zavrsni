@@ -3,6 +3,7 @@
   import './App.css';
   import Messages from './components/messages';
   import React from 'react';
+  import Input from './components/input';
 
   class App extends React.Component {
 
@@ -35,16 +36,30 @@
       }
     }
 
-    render(){
-    return (
-  
-  <div className="App">
-  <Messages
-    messages={this.state.messages}
-    currentMember={this.state.member}
-  />
-  </div>
-    );
-  }
+    onSendMessage = (message) => {
+      const messages = this.state.messages
+      messages.push({
+        text: message,
+        member: this.state.member
+      })
+      this.setState({messages: messages})
+    }
+
+    render() {
+      return (
+        <div className="App">
+          <div className="App-header">
+            <h1>My Chat App</h1>
+          </div>
+          <Messages
+            messages={this.state.messages}
+            currentMember={this.state.member}
+          />
+          <Input
+            onSendMessage={this.onSendMessage}
+          />
+        </div>
+      );
+    }
   }
   export default App;
