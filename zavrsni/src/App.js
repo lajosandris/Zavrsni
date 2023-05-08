@@ -3,6 +3,8 @@
   import './App.css';
   import Messages from './components/messages';
   import React from 'react';
+  import Sidebar from './components/Sidebar'
+  
 
   class App extends React.Component {
 
@@ -39,6 +41,15 @@
     return (
   
   <div className="App">
+  <div className="App-header"> 
+  <button className='sidebar-btn' onClick={this.ToggleSidebar}>Sidebar</button>
+      <h1>Algebra Seminarski Rad</h1>
+
+      {/* Prazan div sluzi za flex pozicioniranje*/}
+  </div>
+  <Sidebar ref={(reference)=> this.sidebar = reference}/>
+
+
   <Messages
     messages={this.state.messages}
     currentMember={this.state.member}
