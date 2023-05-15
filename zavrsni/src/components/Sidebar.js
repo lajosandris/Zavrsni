@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import  "./Sidebar.css";
 
 
-// https://github.com/msostaric031/algebra-seminarski-rad
 class Sidebar extends React.Component{
     constructor(props){
         super(props);
