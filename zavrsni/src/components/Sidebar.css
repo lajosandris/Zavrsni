@@ -1,8 +1,8 @@
 @import url(https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css);
 
 .btn-primary {
-  border-color: orangered;
-  background-color: orangered;
+  border-color: lightseagreen;
+  background-color: lightseagreen;
   color: #fff;
 }
 .navbar {
@@ -62,8 +62,8 @@
   display: inline-block;
   width: 100%;
   padding: 10px 16px;
-  color: #475f7b;
-  background-color: #e5e8ec;
+  color: black;
+  background-color: whitesmoke;
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
