@@ -6,10 +6,10 @@
   }
   
   .App-header {
-    background-color: #262626;
+    background-color: lightgray;
     overflow: visible;
     width: 100%;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
   }
@@ -54,7 +54,7 @@
   
   .Message-content > .username {
     display: block;
-    color: gray;
+    color: black;
     font-size: 14px;
     padding-bottom: 4px;
   }
@@ -64,13 +64,13 @@
     max-width: 400px;
     margin: 0;
     border-radius: 12px;
-    background-color: cornflowerblue;
+    background-color: gray;
     color: white;
     display: inline-block;
   }
   
   .currentMember > .Message-content .text {
-    background-color: orangered;
+    background-color: lightseagreen;
   }
   
   form {
@@ -85,14 +85,14 @@
     padding: 5px;
     font-size: 16px;
     border-radius: 8px;
-    border: 3px solid orangered;
+    border: 3px solid lightgray;
     flex-grow: 1;
   }
   
   button {
     padding: 5px 10px;
     font-size: 16px;
-    background-color: orangered;
+    background-color: lightseagreen;
     color: white;
     border: none;
   }
