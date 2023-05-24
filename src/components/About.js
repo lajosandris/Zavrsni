@@ -1,31 +1,69 @@
-const About = () =>{
-    return <div>
-        <h1> About Page </h1>
-        <div>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut faucibus nisi, quis porttitor felis. Vestibulum in ex velit. In vitae orci at lacus scelerisque rhoncus maximus ut lectus. Nulla mattis auctor massa, vel faucibus nibh cursus ut. Vivamus leo sapien, fringilla sed vehicula id, vestibulum vel eros. Nullam sed enim nec neque porttitor facilisis at sed ligula. Nullam dictum consectetur varius. Etiam vitae lobortis lacus. Proin eget arcu velit. Maecenas ultrices, nulla at porta molestie, purus purus lacinia tellus, a efficitur nunc sapien ut enim. Donec vehicula, enim finibus dapibus mattis, tortor lorem porttitor purus, quis viverra odio justo vel turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sodales bibendum purus at elementum.
+import React, { useState } from "react";
+import "./About.css";
+import appLogo from "../components/konjski-tramvaj.jpg";
 
-Suspendisse potenti. Curabitur et gravida velit. Aliquam vitae vulputate velit. Aliquam erat volutpat. In ut mattis diam, eget vulputate erat. Vivamus dictum nunc justo, non blandit augue malesuada vel. Suspendisse pharetra, tortor quis mollis scelerisque, nunc enim luctus nisl, vel porta dolor eros eget quam. Nulla cursus metus sed orci efficitur, in vulputate augue accumsan. Donec porta, justo vel euismod eleifend, orci felis luctus ipsum, vel tempus lectus nulla sed turpis. Etiam faucibus ac diam sit amet auctor.
 
-Cras nec est et ante pretium ullamcorper. Mauris pellentesque sem elit, quis pretium urna viverra ac. Donec bibendum, purus ac ullamcorper euismod, tellus lorem interdum lacus, eget condimentum metus felis in dui. Suspendisse luctus placerat venenatis. Praesent non dui faucibus, ornare arcu feugiat, aliquet neque. Maecenas purus sem, vehicula sed accumsan ac, dignissim vel neque. Sed imperdiet tortor ut erat tempor, quis auctor ligula tristique. Suspendisse felis orci, dignissim vitae leo sed, tempor cursus mi. Donec suscipit a velit a pretium. Vivamus ultricies dui eget erat posuere, non fringilla dolor rhoncus.
 
-Integer lobortis leo vitae diam hendrerit pretium. Cras a libero vel odio lacinia cursus id eget lacus. Praesent lobortis mollis orci, non maximus lorem tincidunt a. Sed sit amet interdum metus. Praesent lorem quam, congue at purus eget, tempus venenatis enim. Nam est ipsum, laoreet sit amet turpis in, aliquet molestie purus. Maecenas aliquam tempus sem, id hendrerit nunc tempus nec.
+  const About = () => {
+  
+  
+  return (
+    <div className="container">
+      <div className="row align-items-center my-5">
+        <div className="asd">
+        <h1 className="font-weight-bold">GPP nekad i sad</h1>
+                    <p>
 
-Nullam blandit molestie lorem, non accumsan dui molestie vel. Aliquam ornare ante sit amet ultricies sollicitudin. Praesent vel consectetur mi, vitae varius nisl. Sed porta accumsan augue, ut cursus augue lacinia non. Integer placerat mattis turpis at iaculis. Cras pretium lacinia aliquet. Cras ante purus, blandit quis molestie consequat, lacinia in nulla. Maecenas sagittis ut ex eget venenatis. Nulla tristique placerat est id fermentum. Proin eleifend feugiat enim a suscipit. Mauris varius, tortor nec mattis rutrum, neque ex dignissim dui, eu consequat odio augue ac metus. Morbi id bibendum ante. Sed sed justo aliquam, convallis justo sodales, semper turpis. Donec viverra vitae felis nec facilisis. Integer hendrerit nisl nec convallis accumsan.
+                        Kada je 10. rujna danas već jako davne 1884. godine,
+                        Osijekom počeo prometovati konjski tramvaj,
+                        bio je to prvorazredan događaj za grad i njegove građane. Osijek je toga dana dobio
+                        najsuvremeniji oblik javnog prijevoza, prvi između hrvatskih gradova.
 
-Sed luctus ante a massa finibus auctor. Ut sagittis magna sapien, at tincidunt elit laoreet sed. Curabitur id sem laoreet, mollis velit et, sodales urna. Ut aliquet ullamcorper felis ut blandit. Aenean finibus ante ultricies dui viverra, ut imperdiet ex sodales. Sed finibus metus ut neque gravida euismod. Vestibulum nec metus sed turpis commodo mollis. Nam posuere dolor tempor turpis egestas rutrum. Donec convallis vehicula lacus sed vestibulum. Fusce non orci nisi. Integer vestibulum mi ut efficitur pellentesque. Donec id eleifend felis.
-
-Nulla tincidunt tristique eros vel porta. Ut scelerisque metus a nisi ultrices, at sodales massa eleifend. In faucibus laoreet velit. Vivamus suscipit dui sed iaculis viverra. Aenean dictum ut ligula ac condimentum. Donec elementum diam vel dui venenatis vulputate. Integer sed interdum sapien. Nullam felis elit, tempus quis commodo ut, mollis sed erat.
-
-Integer orci nunc, ullamcorper at nibh aliquet, iaculis facilisis nisi. In pulvinar tempus congue. Curabitur luctus bibendum blandit. Phasellus pharetra, nulla vel consectetur porttitor, mauris ligula convallis libero, sit amet eleifend ante mauris sit amet est. Sed sit amet turpis elementum, posuere magna ut, hendrerit ligula. Nunc tempor luctus semper. Pellentesque feugiat pellentesque nibh, at viverra orci dignissim quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc in quam eu ante tincidunt accumsan. Mauris elementum quam ac rhoncus luctus. Quisque condimentum risus enim, id rhoncus mauris porttitor scelerisque. Quisque ac molestie lorem. Vestibulum sollicitudin sagittis lacinia. Proin facilisis magna sit amet lorem vehicula, eu dignissim turpis hendrerit. Sed non ipsum ut nibh facilisis egestas quis sit amet sem.
-
-Duis urna ligula, fringilla ut neque at, varius accumsan leo. Duis dignissim lacus nec rutrum aliquam. Cras nec ex id nibh iaculis tempus a sed tortor. Donec rhoncus purus ut ligula mattis, eget venenatis quam faucibus. Curabitur venenatis, urna congue sollicitudin ultrices, augue magna accumsan nulla, a laoreet sem augue ac tellus. Nulla mollis metus sit amet magna pretium euismod. Donec vel magna dignissim, gravida risus pharetra, ullamcorper leo. Aenean eu magna neque. In volutpat blandit dolor vitae scelerisque. Vivamus et scelerisque arcu, nec semper elit. Aenean accumsan laoreet risus, at ullamcorper mauris scelerisque nec. Vivamus et metus id metus imperdiet pretium vestibulum sit amet diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam vitae leo lobortis, tincidunt tellus a, bibendum quam.
-
-Nunc hendrerit finibus urna a ornare. Curabitur a varius odio. Sed gravida id mi et semper. Donec eros ex, bibendum non dui in, maximus ullamcorper ante. Donec non molestie ante. Proin vel ultricies tellus, sed pretium mauris. Mauris tortor nunc, consectetur et dui id, fermentum sodales sapien. Pellentesque hendrerit sed lectus in rhoncus. Fusce non diam magna. Donec sodales tincidunt diam maximus malesuada. Quisque blandit lacus eget augue lacinia, id placerat dui aliquet. Pellentesque eget nulla consequat, malesuada sapien bibendum, fringilla lorem. Ut eget viverra mi, sit amet volutpat tortor. In sed velit at dui feugiat fringilla.
-
-Cras aliquet commodo sem, id luctus lectus lacinia in. Phasellus tempor eu augue in gravida. Praesent at ornare erat, quis dignissim nibh. Maecenas eget arcu diam. Sed sagittis metus vitae sagittis vestibulum. Suspendisse sit amet tellus tincidunt, lacinia ipsum non, sagittis ante. Duis imperdiet nulla sit amet tempor feugiat. Morbi a laoreet eros. Pellentesque pulvinar risus sed mattis fringilla. Ut.</p></div>
+                    </p>
+                    <p>
+                        Od tada pa do danas promijenilo se dosta toga. Tramvaj više ne vozi Tvrđom, od 1926.
+                        godine Osijekom prometuje električni tramvaj, kasnije se širi gradska mreža kroz Retfalu,
+                        Industrijsku četvrt, Jug II, Višnjevac, modernizira se vozni park.
+                        No, jedna je stvar u više od 135 godina ostala nepromijenjena: tramvaj je bio i ostao sastavni
+                        dio osječke svakodnevice.
+                    </p>
+                    <p>
+                        Tramvajem smo od mladosti putovali svakodnevno u školu,
+                        na sastanke s dragim ljudima,
+                        na posao. Za tramvajem smo trčali, tramvajem smo žurili, u tramvaju se gužvali.
+                        Tramvaj je iznimno važan i za povijest grada kao ključni čimbenik koji je pomogao
+                        prometno integrirati svojedobno još nepovezane gradske cjeline, Tvrđu, Gornji,
+                        Donji i Novi grad, bez čega modernizacija i ekonomski razvoj Osijeka ne bi bili mogući.
+                    </p>
+                    <p>
+                        Konačno, tramvaj je dio identiteta grada, tradicija koju smo uspjeli održati,
+                        simbol po kojem je Osijek prepoznatljiv. Zapravo teško je uopće zamisliti Osijek
+                        bez tramvaja na njegovim ulicama.
+                    </p>
+                    <p>
+                        Danas grad Osijek ima 30 km pruge, te ukupno 25 tramvaja u službi javnog prijevoza.
+                        Samo Zagreb i Osijek u Hrvatskoj imaju organiziran tramvajski promet, s tim da je Osijek
+                        jedan od najmanjih gradova u svijetu čiji građani imaju privilegiju svakodnevno koristiti
+                        ovaj iznimno ekološki prihvatljiv oblik javnog prijevoza.
+                    </p>
+                    <p>
+                        Uz tramvajski, u Osijeku je organiziran i autobusni prijevoz. GPP-ova autobusna flota
+                        sastoji se od ukupno 36 vozila. Zadnji puta je obnovljena 2019. godine, s 12 novih niskopodnih
+                        autobusa, koji su bili financirani sredstvima EU fondova.
+                        No, to je tek početak ulaganja u modernizaciju javnog gradskog
+                        prijevoza u Osijeku. Slijede radovi na infrastrukturi, novi tramvaji,
+                        nova remiza, nabavka još novih autobusa…
+                    </p>
+        
+        </div>
+        <div className="col-lg-7">
+          <img className="mb-4 appLogo" src={appLogo} alt="App logo" />
+        </div>
+      </div>
+     
       
     </div>
+  );
 }
 
 export default About;
