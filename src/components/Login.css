@@ -1,16 +1,17 @@
 .login-form {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgray;
-    border-radius: 20px;
-    margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
-  }
-  .login-form > * {
-    margin-top: 2rem;
-  }
-  .login-btn {
-    margin-bottom: 2rem;
-    width: 6rem;
-  }
+  display: flex;
+  flex-direction: column;
+ 
+  border-radius: 20px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.login-form > * {
+  margin-top: 2rem;
+}
+.login-btn {
+  margin-bottom: 2rem;
+  width: 6rem;
+}

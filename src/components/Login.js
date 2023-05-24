@@ -9,7 +9,7 @@ const Login = (props) =>{
     const handleSubmit = (e)=>{
         e.preventDefault();
         props.onLogin(usernameText);
-        navigate("/Zavrsni/");        
+        navigate("/");        
     }
     
     return (
@@ -17,16 +17,16 @@ const Login = (props) =>{
     <div className="container">
         <form className="login-form" onSubmit={handleSubmit}>
             <label htmlFor="title">
-                <h1>Login</h1>
+                <h1>TRENUTNO NEMA ZASTOJA U PROMETU</h1>
             </label>
             <input 
             id="title"
             type="text" 
-            placeholder="Enter your username" 
+            placeholder="Unesite vaše ime i prezime" 
             required 
             value={usernameText} 
             onChange={(e)=> setUsernameText(e.target.value)}/>
-            <button className="login-btn">Login</button>
+            <button className="login-btn">Prijavite se</button>
         </form>
     </div>)
 }

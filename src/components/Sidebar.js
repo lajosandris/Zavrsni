@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import  "./Sidebar.css";
 
 
+// https://github.com/msostaric031/algebra-seminarski-rad
 class Sidebar extends React.Component{
     constructor(props){
         super(props);
@@ -22,13 +23,13 @@ class Sidebar extends React.Component{
         <div className="container-fluid mt-3"> 
             <div className={`sidebar ${isOpen === true ? "active" : ""}`}>
                 <div className="sd-header">
-                    <h4>Sidebar Header</h4>
-                    <div className="btn btn-primary" onClick={this.ToggleSidebar}>Close Sidebar</div>
+                    <h4></h4>
+                    <div className="btn btn-primary" onClick={this.ToggleSidebar}>Zatvori izbornik</div>
                 </div>
                 <div className="sd-body">
                     <ul>
-                        <li><Link to="/Zavrsni/" className="sd-link">Chat</Link></li>
-                        <li><Link to="/Zavrsni/about" className="sd-link">About</Link></li>
+                        <li><Link to="/" className="sd-link">Razgovor</Link></li>
+                        <li><Link to="/about" className="sd-link">O nama</Link></li>
                     </ul>
                 </div>
             </div>

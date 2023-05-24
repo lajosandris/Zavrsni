@@ -25,11 +25,11 @@ class Input extends Component {
             onChange={e => this.onChange(e)}
             value={this.state.text}
             type="text"
-            placeholder="Enter your message and press ENTER"
+            placeholder="Unesite vašu poruku i pritisnite ENTER"
             // bilo autofocus="true"
             autoFocus={true}
           />
-          <button className="btn-send">Send</button>
+          <button className="btn-send">Pošalji</button>
         </form>
       </div>
     );
