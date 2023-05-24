@@ -1,11 +1,12 @@
 .login-form {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+   
     border-radius: 20px;
     margin-top: 2rem;
     justify-content: center;
     align-items: center;
+    color: #fff;
   }
   .login-form > * {
     margin-top: 2rem;
