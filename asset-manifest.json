@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Zavrsni/static/css/main.6065bb92.css",
-    "main.js": "/Zavrsni/static/js/main.74730194.js",
+    "main.css": "/Zavrsni/static/css/main.9350f30c.css",
+    "main.js": "/Zavrsni/static/js/main.8395202b.js",
+    "static/media/konjski-tramvaj.jpg": "/Zavrsni/static/media/konjski-tramvaj.d08f121d3e1bee9c31b4.jpg",
     "index.html": "/Zavrsni/index.html",
-    "main.6065bb92.css.map": "/Zavrsni/static/css/main.6065bb92.css.map",
-    "main.74730194.js.map": "/Zavrsni/static/js/main.74730194.js.map"
+    "main.9350f30c.css.map": "/Zavrsni/static/css/main.9350f30c.css.map",
+    "main.8395202b.js.map": "/Zavrsni/static/js/main.8395202b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6065bb92.css",
-    "static/js/main.74730194.js"
+    "static/css/main.9350f30c.css",
+    "static/js/main.8395202b.js"
   ]
 }
