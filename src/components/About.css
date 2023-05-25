@@ -1,26 +1,29 @@
+textarea {
+  width: auto;
 
-  textarea {
-    width: 100%;
-   
-  }
-  label {
-    margin-right: 10px;
-    margin-bottom: 10px;
-   
-  }
- 
+}
+label {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.gpp-slika {
+  height: 480px;
+  width: 343px;
+  margin: 10px;
+}
+p,
+h1 {
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.slika{
+  display: flex;
+  gap: 50px;
+  margin: auto; 
   
-  .appLogo {
-    height: 480px;
-    width: 343px;
-  }
-
-  p, h1{
-    color: #fff;
-  }
-
-  h1, img{
-    text-align: center;
-  }
-
- 
+}
